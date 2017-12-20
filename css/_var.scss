@@ -1,0 +1,25 @@
+$font_type1: 'Calibri';
+$font_type2:'Raleway';
+$font_type3: 'Plaster';
+$font_type4: 'Nanum Gothic';
+
+/*$font_type1: 'Calibri', sans-serif;
+$font_type2:'Raleway', sans-serif;
+$font_type3: 'Plaster', cursive;
+$font_type4: 'Nanum Gothic', serif;*/
+
+@mixin selection($color_val){
+  &::-moz-selection{color: $color_val;}
+  &::-webkit-selection{color: $color_val;}
+  &::-ms-selection{color: $color_val;}
+  &::-o-selection{color: $color_val;}
+  &::selection{color: $color_val;}
+}
+
+@mixin selection2($color_val, $background_val){
+  &::-moz-selection{color: $color_val; background-color: $background_val;}
+  &::-webkit-selection{color: $color_val; background-color: $background_val;}
+  &::-ms-selection{color: $color_val; background-color: $background_val;}
+  &::-o-selection{color: $color_val; background-color: $background_val;}
+  &::selection{color: $color_val; background-color: $background_val;}
+}

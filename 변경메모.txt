@@ -1,0 +1,14 @@
+---------- header ----------
+
+* #header  >  header 로 변경
+* #menuWrap  >  nav 로 변경
+* .mLogo > h1 으로 변경 후 위치 nav 자식
+* #menu > .menu로 변경
+
+
+
+---------- section ----------
+
+
+
+
